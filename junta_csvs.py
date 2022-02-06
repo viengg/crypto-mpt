@@ -2,9 +2,9 @@ import pandas as pd
 import glob
 from functools import reduce
 
-TIPO_DADOS = "criptos"
+TIPO_DADOS = "acoes"
 
-path = f"dados\\{TIPO_DADOS}_yahoo\\"
+path = f"dados\\{TIPO_DADOS}_yahoo_atualizadas\\"
 nome_arquivos = glob.glob(path+"*.csv")
 print(f"{len(nome_arquivos)} arquivos encontrados!")
 
